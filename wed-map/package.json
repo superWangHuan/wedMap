@@ -19,7 +19,7 @@
     "start:my": "npm run dev:my",
     "build:my": "node build/build.js my",
     "dev": "node build/dev-server.js wx",
-    "start": "npm run dev",
+    "start": "npm run dev:swan",
     "build": "node build/build.js wx"
   },
   "dependencies": {

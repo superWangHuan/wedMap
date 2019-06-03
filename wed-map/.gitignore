@@ -1,4 +1,5 @@
-.DS_Store
+typings
+e
 node_modules/
 dist/
 npm-debug.log*
