@@ -3,16 +3,23 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 const store=new Vuex.Store({
     state:{
-        addPeople:[]
+        area:'',
+        ismap:null,
     },
     mutations:{
-        setPeople(state,value){
-            state.addPeople=value
+        setArea(state,newValue){
+            state.area=newValue
+        },
+        setMap(state,newValue){
+            state.ismap=newValue
         }
     },
     getters:{
-        addPeople(state){
-            return state.addPeople
+        area(state){
+            return state.area
+        },
+        ismap(state){
+            return state.ismap
         }
     }
 })

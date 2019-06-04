@@ -251,3 +251,23 @@ page {
 .city-count text.extrude {
     color: #FF4463;
 }
+/* 反馈按钮 */
+.feedback-btn{
+    height:50rpx;
+    width:100rpx;
+    background:rgba(255,255,255,.7);
+    border-radius: 30rpx;
+    overflow: hidden;
+    position: absolute;
+    top:10px;
+    left:15px;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    color:rgb(243, 184, 36);
+}
+.feedback-txt{
+    width:70rpx;
+    font-size:12px;
+    text-align: center;
+}

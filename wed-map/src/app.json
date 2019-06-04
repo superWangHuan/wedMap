@@ -1,9 +1,8 @@
 {
   "pages": [
     "pages/map/main",
-    "pages/index/main",
-    "pages/logs/main",
-    "pages/counter/main"
+    "pages/cityList/main",
+    "pages/feedback/main"
   ],
   "window": {
     "navigationBarBackgroundColor": "#FF4463",

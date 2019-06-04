@@ -8,7 +8,7 @@ function getTimestamp() { //获取时间戳
     return ts;
 }
 function getSign(data, sid) {
-    if(sid!==""){
+    if(sid){
         data.sid=sid
     }
     let obj={};
@@ -19,6 +19,7 @@ function getSign(data, sid) {
     } else {
         sid = hexMD5(sid);
     }
+    
     for (let idx in data) {
         param += encodeURIComponent(idx) + '=' + encodeURIComponent(data[idx]) + '&';
         obj[idx]=data[idx];
